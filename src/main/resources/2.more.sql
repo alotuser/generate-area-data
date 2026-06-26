@@ -1,0 +1,9 @@
+SELECT CODE,NAME,LEVEL,TYPE FROM t_origin_area WHERE CODE LIKE '82%';
+
+
+
+SELECT CODE,NAME,LEVEL,TYPE FROM t_origin_area WHERE NAME LIKE '%（%';--  （已撤销）
+
+
+
+DELETE FROM  t_origin_area  WHERE NAME LIKE '%（%';

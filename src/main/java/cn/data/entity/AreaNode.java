@@ -1,0 +1,51 @@
+package cn.data.entity;
+
+import java.util.List;
+
+public class AreaNode {
+    private String code;
+    private String name;
+    private Integer level;
+    private String type;
+    private List<AreaNode> children;
+
+    public String getCode() {
+        return code;
+    }
+
+    public void setCode(String code) {
+        this.code = code;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public Integer getLevel() {
+        return level;
+    }
+
+    public void setLevel(Integer level) {
+        this.level = level;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
+
+    public List<AreaNode> getChildren() {
+        return children;
+    }
+
+    public void setChildren(List<AreaNode> children) {
+        this.children = children;
+    }
+}

@@ -1,0 +1,12 @@
+/**/.classpath
+/**/.project
+/**/.factorypath
+
+
+**/target/
+**/META-INF/
+**/public/doc/
+
+**/.settings/
+**/.apt_generated/
+**/.apt_generated_tests/

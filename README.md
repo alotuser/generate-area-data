@@ -1,4 +1,4 @@
-# README 简易使用文档
+#  简易使用文档
 ## 一、整体功能流程
 入口类：`AllTest.java`，运行 `main()` 一键执行3个步骤
 1. 同步数据入库：加载行政区数据，全量写入 MySQL `t_origin_area`
